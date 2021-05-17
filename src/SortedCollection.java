@@ -60,6 +60,7 @@ public class SortedCollection {
 			}
 		  } catch (NumberFormatException e) {
 			showUsage();
+			return;
 		  }
 	
 		
